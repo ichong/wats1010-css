@@ -1,6 +1,58 @@
 /* This is where styles are defined for your page. */
 /* One style is provided as example. */
 
-h1 {
-    color: green;
+html {
+  font-family: calibri;
+  color: darkgreen;
 }
+
+body {
+     background-image: url("images/hard-paper-texture.jpg");
+}
+
+header.page-header {
+    background: lightgoldenrodyellow;
+    opacity: .5;
+    padding: 1rem;
+}
+
+.page-header h1 {
+    margin-bottom: 0;
+}
+
+.page-header p {
+    margin-top: 0;
+}
+
+.page-header small {
+  font-size: medium
+}
+
+h1, h2 {
+    font-family: calibri light;
+    color: darkgreen;
+}
+
+h1::first-letter {
+    font-size: 140%;
+    color: darkgreen;
+}
+
+aside.more-info img {
+    width: 250px;
+    height: auto;
+}
+
+section#content .poem {
+  font-size: 120%;
+  color: darkorchid;
+  background: lightgoldenrodyellow;
+  opacity: .7;
+}
+
+.poem li {
+  list-style-type: none;
+  line-height: 1.5;
+}
+
+
